@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Cloning dependencies"
-git clone --depth=1 -b https://github.com/brucetech627/kernel_xiaomi_sweet kernel
+git clone --depth=1 https://github.com/brucetech627/kernel_xiaomi_sweet kernel
 cd kernel
 git clone --depth=1 -b master https://github.com/MASTERGUY/proton-clang clang
 git clone --depth=1 https://github.com/stormbreaker-project/AnyKernel3 -b sweet AnyKernel3
