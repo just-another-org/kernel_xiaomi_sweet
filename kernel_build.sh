@@ -6,7 +6,7 @@
 
 # Config
 DEVICE="sweet"
-DEFCONFIG="vendor/${DEVICE}_defconfig"
+DEFCONFIG="${DEVICE}_defconfig"
 LOG="$HOME/log.txt"
 
 # Export arch and subarch
@@ -17,7 +17,7 @@ export ARCH SUBARCH
 KERNEL_IMG=$KERNEL_DIR/out/arch/$ARCH/boot/Image.gz-dtb
 KERNEL_DTBO=$KERNEL_DIR/out/arch/$ARCH/boot/dtbo.img
 
-TG_CHAT_ID="-595060175"
+TG_CHAT_ID="1428369788"
 TG_BOT_TOKEN="$BOT_API_KEY"
 # End config
 
