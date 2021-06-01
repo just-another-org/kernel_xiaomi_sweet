@@ -12,10 +12,8 @@ jobs:
            git config --global color.ui false
            git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh && cd ..
            apt install -y cpio
-           mkdir nbm69
-           cd nbm69
            wget https://raw.githubusercontent.com/brucetech627/kernel_xiaomi_sweet/stormbreaker/.circleci/build.sh
-           source build.sh
+           source ../kernel_setup.sh
 workflows:
   version: 2.1
   cooking:
